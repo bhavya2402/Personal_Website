@@ -1,0 +1,52 @@
+.galleryContainer{
+    background-color: #D2D2D2;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    overflow: scroll;
+}
+.galleryWrapper{
+    background: url("../assets/images/scenery.jpg ");
+    height: 270px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+}
+.galleryWrapper h1{
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.galleryImages{
+    padding: 0px;
+    margin: 0px;
+}
+.galleryImages li{
+    list-style-type: none;
+    display: inline;
+}
+.galleryImages img{
+    height: 200px;
+    width: 220px;
+    float: left;
+    clear: right;
+    display: inline;
+    /* border: 1px solid black; */
+    /* border-radius: 40%; */
+    margin: 10px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fullImage img{
+    height: 600px;
+}

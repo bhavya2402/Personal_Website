@@ -1,0 +1,137 @@
+.portfolioContainer{
+    background-color: #D2D2D2;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    overflow: auto;
+}
+.portfolioWrapper{
+    background: url("../assets/images/scenery.jpg ");
+    height: 270px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+}
+.portfolioWrapper h1{
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.portfolioMenu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.portfolioImages li img{
+  display:inline-block;
+  float:left;
+  clear: right;
+  height: 172px;
+  width: 25%;
+  border-bottom: 1px solid black;
+}
+.fullPortfolioImage img{
+    max-height: 700px;
+    max-width: 900px;
+}
+/*.skillSection h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    color: #686886;
+}*/
+.carousel-inner{
+    /*background: transparent;*/
+    width: 50%;
+    margin: 0 auto;
+    height: 150px;
+}
+.carousel{
+    border-bottom: 1px solid #e3e3e3;
+}
+/*div.carousel-inner:nth-child(n+2) {
+    width: 50%;
+    margin: 0 auto;
+    height: 150px;
+    margin-bottom: 120px;
+}*/
+.carousel-indicators {
+    margin-bottom: 0px;
+}
+.skillTag{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #686886;
+    margin-top: 170px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+.carousel-indicators li{
+    height: 6px;
+    width: 6px;
+}
+.item{   
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    /*width: 200px;
+    height: 200px;
+    float: left;*/
+   /* margin-left: 392px;*/
+}
+.item h3{
+    color: #2E3235;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px;
+}
+/*.carousel-control{
+    background: transparent;
+}*/
+.academicTag{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #686886;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+.item h4{
+    color: #2E3235;
+    margin-top: -12px;
+    text-align: center;
+    padding: 0px;
+}
+.experienceTag{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #686886;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+.item h4{
+    color: #2E3235;
+    margin-top: -12px;
+    text-align: center;
+    padding: 0px;
+}
+
+

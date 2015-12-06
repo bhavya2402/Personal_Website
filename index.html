@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <meta name="description" content="Hi I am bhavya sinha, a ECE graduate from NIT Patna, a web developer by profession" />
+    <meta name="keywords" content="bhavya, bhavyasinha, bhavyanitp, bhavyacarmel, bhavyadav, bhavyaibm, bhavyabangalore, bhavyasinha.com, www.bhavyasinha.com" />
+
+	<title>Bhavya Sinha</title>
+	<link rel="stylesheet"  href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/aboutMe.css">
+    <link rel="stylesheet"  href="css/portfolio.css">
+    <link rel="stylesheet"  href="css/blog.css">
+    <link rel="stylesheet"  href="css/gallery.css">
+	<link rel="stylesheet"  href="css/contact.css">
+
+	<script src="vendor/jquery-1.11.3.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+   <div class="row mainContainer ">
+        <div class="visible-xs visible-sm col-xs-12 col-sm-12 menuNavContainer">
+            <span class="glyphicon glyphicon-th-list" aria-hidden="true" id="menuIcon"></span>
+        </div>
+        <div class="visible-xs visible-sm col-xs-3 col-sm-3 hide smallNavContainer">            
+            <div class="smallMenuList">
+                <ul class="nav navbar-nav">
+                    <li class="active aboutTab"><b>Home</b></li>
+                    <li class="portfolioTab"><b>Portfolio</b></li>
+                    <li class="blogTab"><b>Blog</b></li> 
+                    <li class="galleryTab"><b>Gallery</b></li> 
+                    <li class="contactTab"><b>Contact</b></li> 
+                </ul>
+            </div>
+        </div>        
+
+        <div class="hidden-xs hidden-sm col-md-3 col-lg-3 sideNavBar">       
+            <div class="sideImgContainer"><img src="assets/images/profile_pic.jpg" alt="bhavya"></div>
+            <nav class="navbar navbar-default">
+                <div class="menuList">
+                    <ul class="nav navbar-nav">
+                        <li class="active aboutTab"><b>About</b></li>
+                        <li class="portfolioTab"><b>Portfolio</b></li>
+                        <li class="blogTab"><b>Blog</b></li> 
+                        <li class="galleryTab"><b>Gallery</b></li> 
+                        <li class="contactTab"><b>Contact</b></li> 
+                    </ul>
+                </div>
+            </nav>
+            <!-- <footer class="container-fluid footer" id="footer">This site was designed and built by Bhavya Sinha..
+            </footer> -->
+        </div> 
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 aboutContainer">
+            <div class="aboutWrapper">
+                <h1>Hello!! I am Bhavya</h1>
+                <h2>Software Developer</h2>
+                <h3>IBM India Pvt Ltd.</h3>
+            </div> 
+            <div class="aboutMe">
+            	<h1>About Me</h1>
+            	<p>Hi, I’m Bhavya Sinha and I specialize in Computer Software. I’m passionate about what I do, and I love to help people. Nothing is more fulfilling than being part of a team with similar interests, and an organization that values its employees.</p>
+                <p>I am a web developer, having knowledge of both frontEnd and backend Technologies like javascript, css, html,node.js,mongoDB. I also have one year experience in iOS mobile testing.</p>
+                <p>Expertise in some defect tracking and test management tools like RQM, RTC,Jazzhub, Track and plan. I have hands on Ui automation as well.</p>
+
+            	<h2>Educational Qualification</h2>
+            	<p>I did my Bachelor of technology in Electronics and Communication Engineering from National Institute of Technology,Patna with CGPA of 8.76.<p>
+                <p> I passed my 10<sup>th</sup> from Mount Carmel, which is affiliated to ICSE securing 91% and 12<sup>th</sup> from DAV Public School, BSEB Colony, securing 82%..</p>
+
+            	<h2>Hobbies</h2>
+            	<p>My hobbies are playing chess, listening music, watching movies, social networking. </p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9  portfolioContainer">
+            <div class="portfolioWrapper">
+                <h1>Portfolio</h1>
+            </div> 
+            <div class="portfolioImages">
+                <ul class="portfolioMenu">
+                    <li data-id="1"><a href="#"><img src="assets/images/Portfolio1.jpg"></a></li>
+                    <li data-id="2"><a href="#"><img src="assets/images/Portfolio2.jpg" height="465" width="700"></a></li>
+                    <li data-id="3"><a href="#"><img src="assets/images/Portfolio3.jpg" height="320" width="560"></a></li>
+                    <li data-id="4"><a href="#"><img src="assets/images/Portfolio4.jpg" height="320" width="560"></a></li>
+                </ul>
+            </div>
+            <div class="modal" id="myModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog">                          
+                <div class="modal-content fullPortfolioImage">
+                   <img id="modal-portfolioImg" src="assets/images/Portfolio1.jpg" alt="portfolio_image">
+                </div>
+            </div>
+            </div>  
+            <br>
+            <div class="portfolioContent">
+                <div class="skillSection">
+                    <h1 data-id='1' class="skillTag">Skills</h1>
+                    <div id="myCarouselSkill" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="myCarouselSkill" data-slide-to="0" class="active"></li>
+                            <li data-target="myCarouselSkill" data-slide-to="1"></li>
+                            <li data-target="myCarouselSkill" data-slide-to="2"></li>
+                            <li data-target="myCarouselSkill" data-slide-to="3"></li>
+                            <li data-target="myCarouselSkill" data-slide-to="4"></li>
+                            <li data-target="myCarouselSkill" data-slide-to="5"></li>
+                            <li data-target="myCarouselSkill" data-slide-to="6"></li>
+                        </ol>                  
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                            <h3>HTML5</h3>                            
+                            </div>
+                            <div class="item">
+                            <h3>CSS3</h3> 
+                            </div>                        
+                            <div class="item">
+                            <h3>jQuery</h3> 
+                            </div>                      
+                            <div class="item">
+                            <h3>AngularJS</h3>
+                            </div>
+                            <div class="item">
+                            <h3>NodeJs</h3>
+                            </div>
+                            <div class="item">
+                            <h3>SailsJS</h3>
+                            </div>
+                            <div class="item">
+                            <h3>MongoDB</h3>
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouselSkill" role="button" data-slide="prev">
+                            <!-- <span class="icon-prev"></span> -->
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarouselSkill" role="button" data-slide="next">
+                            <!-- <span class="icon-next"></span> -->
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>                     
+                    </div>                    
+                </div>
+    
+                <div class="academicSection">
+                    <h1 data-id='2' class="academicTag">Academics</h1>
+                    <div id="myCarouselAcademic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="myCarouselAcademic" data-slide-to="0" class="active"></li>
+                            <li data-target="myCarouselAcademic" data-slide-to="1"></li>
+                            <li data-target="myCarouselAcademic" data-slide-to="2"></li>
+                        </ol>                  
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                            <h3>National Institute of Technology</h3>
+                            <h4><small>Electronics and Communication Engineering</small></h4>
+                            <h4><small>2010-2014</small></h4>                            
+                            </div>
+                            <div class="item">
+                            <h3>DAV Public School, BSEB Colony</h3>
+                            <h4><small>2007-2009</small></h4> 
+                            </div>                        
+                            <div class="item">
+                            <h3>Mt. Carmel High School</h3>
+                            <h4><small>2002-2007</small></h4> 
+                            </div>                      
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouselAcademic" role="button" data-slide="prev">
+                            <!-- <span class="icon-prev"></span> -->
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarouselAcademic" role="button" data-slide="next">
+                            <!-- <span class="icon-next"></span> -->
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>                     
+                    </div>                    
+                </div>
+    
+                <div class="experienceSection">
+                    <h1 data-id='3' class="experienceTag">Experience</h1>
+                    <div id="myCarouselExperience" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarouselExperience" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarouselExperience" data-slide-to="1"></li>
+                            <li data-target="#myCarouselExperience" data-slide-to="2"></li>
+                        </ol>                  
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                            <h3>Application Developer</h3>
+                            <h4><small>IBM India Pvt Ltd.</small></h4>                            
+                            </div>
+                            <div class="item">
+                            <h3>Trainee</h3>
+                            <h4><small>Doordarshan Kendra,Worli,Mumbai</small></h4> 
+                            </div>                        
+                            <div class="item">
+                            <h3>Trainee</h3>
+                            <h4><small>TekBrains Pvt. Ltd.</small></h4> 
+                            </div>                      
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouselExperience" role="button" data-slide="prev">
+                            <!-- <span class="icon-prev"></span> -->
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarouselExperience" role="button" data-slide="next">
+                            <!-- <span class="icon-next"></span> -->
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>                     
+                    </div>                    
+                </div>
+            </div>    
+        </div>
+            
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9  blogContainer">
+            <div class="blogWrapper">
+                <h1>Blog</h1>
+            </div> 
+            <article class="articleBlog">
+            <div>
+                <h2>Timeless Thoughts</h2>
+                <pre> 
+<b>Here are 30 timeless thoughts on stress and how to handle it from the people who came before us (and some from people who are here with us now).</b>
+
+“The time to relax is when you don’t have time for it.”
+<b>– Sydney J. Harris</b>
+
+“One of the best pieces of advice I ever got was from a horse master. He told me to go slow to go fast. I think that applies to everything in life. We live as though there aren’t enough hours in the day but if we do each thing calmly and carefully we will get it done quicker and with much less stress.”
+<b>– Viggo Mortensen</b></b>
+
+“Much of the stress that people feel doesn’t come from having too much to do. It comes from not finishing what they’ve started.”
+<b>– David Allen</b></b>
+
+“In times of great stress or adversity, it’s always best to keep busy, to plow your anger and  your energy into something positive.”
+<b>– Lee Iacocca</b></b>
+
+“It is not a daily increase, but a daily decrease. Hack away at the inessentials.”
+<b>– Bruce Lee</b></b>
+
+“The greatest weapon against stress is our ability to choose one thought over another.”
+<b>– William James</b></b>
+
+“We can easily manage if we will only take, each day, the burden appointed to it. But the load will be too heavy for us if we carry yesterday’s     burden over again today, and then add the burden of the morrow before we are required to bear it.”
+<b>– John Newton</b></b>
+
+“It’s a good idea always to do something relaxing prior to making an important decision in your life.”
+<b>– Paulo Coelho</b></b>
+
+“Take rest; a field that has rested gives a bountiful crop.”
+<b>– Ovid</b></b>
+
+“Doing something that is productive is a great way to alleviate emotional stress. Get your mind doing something that is productive.”
+<b>– Ziggy Marley</b>
+
+“Stress is caused by being ‘here’ but wanting to be ‘there.’
+<b>– Eckhart Tolle</b>
+
+“The greatest mistake you can make in life is to be continually fearing you will make one.”
+<b>– Elbert Hubbard</b>
+
+“Its not stress that kills us, it is our reaction to it.”
+<b>– Hans Selye</b>
+</pre>             
+            </div>
+            <div>
+                
+            </div>
+            </article>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9  galleryContainer">
+            <div class="galleryWrapper">
+                <h1>Gallery</h1>
+            </div> 
+            <div class="gallerySection">
+                <ul class="galleryImages">
+                    <li data-id='1'><a href="#"><img src="assets/images/gallery1.jpg" alt="gallery_image"></a></li>
+                    <li data-id='2'><a href="#"><img src="assets/images/gallery2.jpg" alt="gallery_image"></a></li>
+                    <li data-id='3'><a href="#"><img src="assets/images/gallery3.jpg" alt="gallery_image"></a></li>
+                    <li data-id='4'><a href="#"><img src="assets/images/gallery4.jpg" alt="gallery_image"></a></li>
+                    <li data-id='5'><a href="#"><img src="assets/images/gallery5.jpg" alt="gallery_image"></a></li>
+                    <li data-id='6'><a href="#"><img src="assets/images/gallery6.jpg" alt="gallery_image"></a></li>
+                </ul>
+            </div>
+        </div>   
+
+        <div class="modal" id="mygalleryModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog">                          
+                <div class="modal-content fullImage">
+                   <img id="modal-img" src="assets/images/gallery1.jpg" alt="gallery_image">
+                </div>
+            </div>
+        </div> 
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9  contactContainer">
+            <div class="contactWrapper">
+                <h1>Contact Me</h1>
+            </div> 
+            <div class="contactSection">
+                <form class="contactForm">
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="firstname" required>
+                    <!-- <input type="text" name="lastname"> -->
+                    <br>
+                    <label>Email:</label>
+                    <br>
+                    <input type="email" name="email" required>
+                    <br>
+                    <br>
+                    <label>Phone No:</label>
+                    <br>
+                    <input type="number" name="number" required>
+                    <br>
+                    <label>Comment:</label>
+                    <br>
+                    <textarea name="comment" class="commentArea" placeholder= "Enter text here..."></textarea>
+                    <br>
+                    <input type="submit" value="Submit" class="formSubmit">
+                </form>                
+            </div>
+        </div>                       	
+
+   </div>
+ </div>
+</body>
+</html>

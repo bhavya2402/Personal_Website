@@ -1,0 +1,40 @@
+.aboutContainer{
+    background-color: #D2D2D2;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 110%;
+    overflow: scroll;
+}
+.aboutWrapper{
+	background: url("../assets/images/scenery.jpg ");
+    background-attachment: scroll;
+    height: 270px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+.aboutWrapper h1{
+	color: white;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 0px;
+}
+.aboutWrapper h2,h3{
+	color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.aboutMe h1,h2{
+	text-align: center;
+	color: #686886;
+}
+.aboutMe p{
+    margin: auto;
+	width: 70%;
+}
