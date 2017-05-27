@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.galleryContainer').addClass('hide');
 	$('.contactContainer').addClass('hide');
     $('#myCarouselAcademic').hide();
-    $('#myCarouselExperience').hide();
+    $('#myCarouselSkill').hide();
 
     // $(".sticky-header").floatThead({scrollingTop:50});
     $(".aboutTab").on('click',function(){
@@ -82,6 +82,7 @@ $(document).ready(function(){
         return false;
     }
     else{
+        location.href='mailto:bhavyasinha2402@email.com'
         window.alert("Thankyou For contacting me!! Will get back to you earliest..");
     }
 });
